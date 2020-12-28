@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "bookstore-users-api/app"
 
 func main() {
-	fmt.Println("Testing")
+	app.StartApplication()
 }
